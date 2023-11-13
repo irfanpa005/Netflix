@@ -1,0 +1,65 @@
+.posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    padding: 10px 20px;
+    color: white;
+    margin-right: 1rem;
+    /* For Edge */
+    -ms-overflow-style: -ms-autohide-scrollbar;
+}
+
+.movie_image {
+    width: 200px;
+    margin-top: 0;
+    margin-right: 20px;
+    height: 90%;
+}
+.movie_image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.movie_image_small {
+    width: 150px;
+    margin-top: 0;
+    margin-right: 15px;
+    
+}
+
+.movie_image_small:hover  {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.movie_name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px; 
+}
+.movie_name_small{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 160px; 
+}
+
+.movie_container{
+    position: relative;
+    
+}
+
+.youtu_player{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
