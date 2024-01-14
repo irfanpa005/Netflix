@@ -5,3 +5,6 @@ export const imageUrl500 = "https://image.tmdb.org/t/p/w500"
 
 export const originals = `discover/tv?api_key=${API_KEY}&with_networks=213`
 export const actions = `discover/movie?api_key=${API_KEY}&language=en-US&with_genres=28`
+export const comedy = `discover/movie?api_key=${API_KEY}&language=en-US&with_genres=35`
+export const drama = `discover/movie?api_key=${API_KEY}&language=en-US&with_genres=18`
+export const family= `discover/movie?api_key=${API_KEY}&language=en-US&with_genres=10751`

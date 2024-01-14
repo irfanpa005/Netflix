@@ -8,13 +8,50 @@
     position:fixed;
     top: 0;
     z-index: 1;
-    background-color: rgb(68, 75, 75,0.6);
+    background-color: rgba(56, 59, 59, 0.6);
   }
   
 .logo{
     width: 120px;
 }
 
+.rightIcons>ul{
+    list-style: none;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.rightIcons>ul>li:hover{
+    cursor: pointer;
+}
+
+
 .avatar{
     width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.menuDivs{
+    width: 100%;
+    text-align: start;
+    font-size: 1rem;
+}
+
+.menuDivs >ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+    color: rgb(218, 214, 214);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuDivs >ul>li:hover{
+    cursor: pointer;
+    color: white;
 }
