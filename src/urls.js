@@ -1,5 +1,5 @@
-export const baseUrl = "https://api.themoviedb.org/3/";
-export const API_KEY = "70ac888115387285cfa68e25c919eb06";
+export const baseUrl = import.meta.env.VITE_BASE_URL
+export const API_KEY = import.meta.env.VITE_API_KEY
 export const imageUrl = "https://image.tmdb.org/t/p/original"
 export const imageUrl500 = "https://image.tmdb.org/t/p/w500"
 

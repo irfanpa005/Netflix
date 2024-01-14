@@ -19,6 +19,7 @@
     margin-top: 0;
     margin-right: 20px;
     height: 90%;
+    transition: transform 0.5s ease;
 }
 .movie_image:hover {
     cursor: pointer;
@@ -30,6 +31,7 @@
     width: 150px;
     margin-top: 0;
     margin-right: 15px;
+    transition: transform 0.5s ease;
     
 }
 
