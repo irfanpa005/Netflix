@@ -3,12 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5vw 10vw;
+    /* padding: 1.5vw 10vw; */
+    padding: max(1.5vw,25px) 10vw;
+
     height: 30px;
     position:fixed;
     top: 0;
     z-index: 1;
-    background-color: rgba(56, 59, 59, 0.6);
+    background-color: rgba(13, 14, 14, 0.6);
+    overflow-x: hidden;
   }
   
 .logo{
@@ -54,4 +57,10 @@
 .menuDivs >ul>li:hover{
     cursor: pointer;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .menuDivs{
+        display: none;
+    }
 }

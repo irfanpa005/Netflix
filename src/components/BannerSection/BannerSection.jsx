@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./bannersection.module.css";
-import { imageUrl } from "../../urls";
+import { imageUrl,imageUrl500 } from "../../urls";
 import { getTopMovies } from "./Services";
 
 function BannerSection() {
@@ -22,7 +22,7 @@ function BannerSection() {
   return (
     <>
       {topMovies.length > 0 && (
-      <div className={styles.banner_div} style={{backgroundImage: `url(${imageUrl + topMovies[currentIndex].backdrop_path })`}}>
+      <div className={styles.banner_div} style={{backgroundImage: `url(${imageUrl+ topMovies[currentIndex].backdrop_path })`}}>
         <div className={styles.movie_details}>
           <h4 className={styles.movie_title}>{topMovies[currentIndex].title}</h4>
           <div className={styles.banner_button}>
